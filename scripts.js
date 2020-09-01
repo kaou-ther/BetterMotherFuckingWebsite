@@ -18,7 +18,7 @@ function modePsychedelique(){
     var mode = document.getElementById('mode-psychedelique');
     var defaultStyle = document.getElementsByTagName('body')[0].style;
     var headings = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
-    if (mode.value =='Activate'){
+    if (mode.value =='Enable Psychedelic Mode'){
         document.getElementsByTagName('body')[0].style.backgroundColor = 'magenta';
         document.getElementsByTagName('body')[0].style.color = 'blue';
         document.getElementsByTagName('body')[0].style.fontFamily = 'papyrus';
@@ -27,7 +27,7 @@ function modePsychedelique(){
             val.style.color = 'green';
             val.style.fontFamily = 'Comic Sans MS';
         }
-        mode.value = 'Disable';
+        mode.value = 'Disable Psychedelic Mode';
     }else{
         document.getElementsByTagName('body')[0].style = defaultStyle;
         for (val of headings)
@@ -35,6 +35,6 @@ function modePsychedelique(){
             val.style.color = 'black';
             val.style.fontFamily = 'Comic Sans MS';
         }
-        mode.value ='Activate';
+        mode.value ='Enable Psychedelic Mode';
     }
 }

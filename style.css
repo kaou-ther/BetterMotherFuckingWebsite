@@ -69,14 +69,14 @@ body {
 }
 
 
-#mode-psychedique{
+#mode-psychedelique{
     position: fixed;
     right: 50px;
     bottom: 50px;
-    border-radius: 50%;
-    width: 80px;
-    height: 80px;
-    background-color: #454545;
+    border: 20px 20px 20px 20px;
+    width: auto;
+    height: auto;
+    background-color: magenta;
     outline: none;
 
 }

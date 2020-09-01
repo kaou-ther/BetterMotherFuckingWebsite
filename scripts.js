@@ -14,8 +14,8 @@ document.getElementById("redirect").onclick = function () {
   location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
 };
 
-function modePsychedique(){
-    var mode = document.getElementById('mode-psychedique');
+function modePsychedelique(){
+    var mode = document.getElementById('mode-psychedelique');
     var defaultStyle = document.getElementsByTagName('body')[0].style;
     var headings = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
     if (mode.value =='Activate'){
